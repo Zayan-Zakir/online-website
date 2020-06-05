@@ -1,0 +1,219 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+ 
+#b{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+#contact-section{
+    background: linear-gradient( rgba(0,0,0,0.6) ,rgba(0,0,0,0.9),url(../image/r-1.jpg));
+    background-size: cover ;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+   
+}
+
+
+#contact-section #b>h2{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    color: black;
+    letter-spacing: 2px;
+}
+
+
+
+#contact-section  #b>p{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    color: black; 
+    letter-spacing: 3px;
+} 
+  
+.contact-form i.fa{
+    font-size: 22px;
+    padding: 3%;
+    background-color: none;
+    margin: 2%;
+    cursor: pointer;
+    color: black;
+
+
+}
+
+
+.contact-form i.fa:hover{
+    cursor: pointer;
+    border: 2px solid black ;
+    color: black;
+}
+
+
+.contact-form{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+}
+
+
+
+
+
+
+.form-info{
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+    letter-spacing: 2px;
+}
+
+
+input{
+    padding: 10px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid black;
+    background-color: rgb(136, 133, 133,0.5);
+    color: black;
+    border: none;
+    outline: none;
+}
+
+textarea::placeholder{
+    color: black;
+    
+}
+
+
+.submit{
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 3%;
+    border: 2px solid (0, 190, 190);
+    color : #fff;
+}
+
+
+ #f{
+    position: relative;
+    left: 0px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+
+} 
+
+
+#q{
+position: relative;
+bottom: 600px;
+
+}
+
+
+.submit:hover{
+   border: 1px solid  black;
+   color : #fff;
+   cursor : pointer;
+
+}
+
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+    #contact-section .contact-form{
+        display: #ffff;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+#contact-section .submit{
+    width: 60%;
+}
+ 
+#w{
+    width: 100%;
+    height: auto;
+    display: flex;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+
+
+#t{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    /* background-image: url(image/r-6.jpg) */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+ .zayan{
+    position: absolute;
+    bottom: 250px;
+    left: 400px;
+    font-family: ubuntu;
+    font-size: 55px;
+    color: #fff;
+}  
+
+.zano,.zano>a{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+.zano>a:hover{
+    color: white;
+    opacity: 0.5;
+
+}
+
+
+
+.nav-item{
+    font-size: 18px;
+    font-weight: bolder;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+
+
+
+
+
+
